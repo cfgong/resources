@@ -8,4 +8,5 @@ git remote add origin <remote repository URL>
 git remote -v  
 git push -u origin master  
 # Resources
-[gitready](http://gitready.com/)
+[gitready](http://gitready.com/)  
+[try git](https://try.github.io/)  
