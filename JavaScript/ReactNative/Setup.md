@@ -1,6 +1,7 @@
 * [Create a react hybrid app](https://medium.com/@yannickdot/write-once-run-anywhere-with-create-react-native-app-and-react-native-web-ad40db63eed0)
     * [Create react app - Github](https://github.com/facebook/create-react-app)
     * npm init react-app my-app
+    * create-react-app hybrid-app
 * To start the app:
     * npm run start-web
     * npm run start-native

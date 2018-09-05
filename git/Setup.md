@@ -7,6 +7,14 @@ git commit -m "initial commit"
 git remote add origin <remote repository URL>  
 git remote -v  
 git push -u origin master  
+
+Connect to remote Git resposity:  
+git remote add origin <remote_repo_url>  
+
+Track remote branch  
+git checkout --track origin/<branch>  
+
+git branch -r  
 # Resources
 [gitready](http://gitready.com/)  
 [try git](https://try.github.io/)  
