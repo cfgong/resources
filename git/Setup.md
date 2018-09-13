@@ -12,7 +12,7 @@ Connect to remote Git resposity:
 git remote add origin <remote_repo_url>  
 
 Track remote branch  
-git checkout --track origin/<branch>  
+git checkout --track origin/<branch_name>  
 
 git branch -r  
 # Resources
