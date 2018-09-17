@@ -31,7 +31,10 @@ list config details:
 ```
 git config --list
 ```   
-
+git clone remote repository not found, try:
+```
+git clone https://username@github.com/username/repo_name
+```
 # Resources
 [gitready](http://gitready.com/)  
 [try git](https://try.github.io/)  
