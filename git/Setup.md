@@ -9,7 +9,7 @@ git remote add origin <remote repository URL>
 git remote -v  
 git push -u origin master  
 ```
-Connect to remote Git resposity:  
+Connect to remote Git respository:  
 ```
 git remote add origin <remote_repo_url>  
 ```
