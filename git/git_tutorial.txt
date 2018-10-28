@@ -1,0 +1,96 @@
+git-scm.com
+right click from a directiory and 
+go to git hub
+export PS1='$' ;; to temporarily change from printing out working directory
+git config --global core.preloadindex true
+git config --global core.fscache true
+git config --global gc.auto 256
+
+
+git config --global user.name "CG"
+git config --global user.email "c@gmail.com"
+mkdir planets
+cd planets
+ls -al ;; dir
+git init
+git status
+nano mars.txt
+git status
+git add mars.txt
+git commit -m "Starting notes on our Mars base" ;; commits and addes message
+git status
+ls -l
+git log
+git diff
+git commit -m "Added info about the Wolfam"
+git add mars.txt ;; adds the mars.txt ;; add first then commit
+git commit -m "Added info about Wolfam"
+git log --oneline
+
+git diff --staged ;;shows difference between staged version and most recently commited ver
+cat mars.txt
+
+git diff HEAD~ ;; shows diff between most recent commit and commit before that.
+git diff Head~2
+
+git show HEAD~2
+
+git checkout --mars.txt ;; throws away changes that were made
+;; to get an older version of a file back:
+git log --oneline
+git checkout a06defb mars.txt ;; a06defb is the identifier of a previous commit
+git checkout --mars.txt ;;gets current version back
+
+;;go to github, make a new repository
+;; push an existing repository from command line
+
+git remote add origin https://github.com/cfgong/planets_test.git
+git push -u origin master ;;pushes all commits to origin
+git status
+cat mars.txt
+git reset HEAD mars.txt
+git checkout -- mars.txt
+
+mkdir results
+touch a.dat b.dat c.dat results/a.out results/b.out ;; makes a bunch of empty files
+
+pwd
+
+nano .gitignore
+;; type patterns that git will ignore
+	 in the file:
+		 *.dat 
+		/results
+	can also do:
+		*.dat
+		!a.dat ;;so don't ignore a.dat
+		/results
+;; git checkout a06defb ;; changes HEAD pointer, do not do this
+;; git checkout master ;;moves head back to where it should go
+
+git add .gitignore
+git commit -m "added .gitignore"
+
+collaborator: git clone URL planets_2
+		git add mars.txt
+		git commit -m "message"
+		/* make changes */
+		git push
+owner : git pull 
+git branch ;; see what branches there are of the repo 
+git checkout Mitsuba 
+---
+npm install ;; to install all packages
+mongod ;; to start a mongo server
+
+
+git fetch origin
+git reset --hard origin/master
+
+remote branch:
+git branch
+git branch -r
+git fetch origin
+git branch -v -a
+git checkout <branchname>
+git branch
