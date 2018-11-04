@@ -1,5 +1,9 @@
 # Setup
 [Git workshop](https://github.com/nuitrcs/gitworkshop)  
+git clone
+```
+git clone <remote_repo_url> other-name
+```
 [Adding an existing project to GitHub using the command line](https://help.github.com/articles/adding-an-existing-project-to-github-using-the-command-line/)  
 ```
 git init  
