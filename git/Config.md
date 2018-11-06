@@ -16,3 +16,8 @@ for multiple configs:
 ```
 git config --global --unset-all user.name
 ```
+
+save git credential details
+```
+git config --global credential.helper store
+```
