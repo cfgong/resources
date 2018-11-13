@@ -47,3 +47,5 @@ git clone https://username@github.com/username/repo_name
 # Resources
 [gitready](http://gitready.com/)  
 [try git](https://try.github.io/)  
+[git - the simple guide (simple walkthrough)](https://rogerdudler.github.io/git-guide/)   
+[interative git branching tutorial](https://learngitbranching.js.org/)
