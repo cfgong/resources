@@ -13,4 +13,9 @@ git add -A
 git commit -am 'Removing ignored files'
 ```
 first command untracks all files  
-second command adds back all files except those that match .gitignore
+second command adds back all files except those that match .gitignore  
+
+To reset a file to HEAD pointer version
+```
+git checkout HEAD -- <filename>
+```
