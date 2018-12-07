@@ -12,6 +12,10 @@ git rm -r --cached .
 git add -A
 git commit -am 'Removing ignored files'
 ```
+to just target gitignored files:
+```
+for file in `cat .gitignore`  ; do git rm -r --cached $file; done
+```
 first command untracks all files  
 second command adds back all files except those that match .gitignore  
 
