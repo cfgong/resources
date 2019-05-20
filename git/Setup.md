@@ -30,6 +30,14 @@ git pull: There is no tracking information for the current branch.
 git branch --set-upstream-to=origin/master master
 git pull
 ```
+Make a branch:
+```
+git checkout -b <branch_name>
+```
+Push upstream
+```
+git push -u origin <branch_name>
+```
 ## Account Setup
 set new username:  
 ```
