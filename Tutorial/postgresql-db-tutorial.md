@@ -2,7 +2,7 @@
 *This tutorial details the setup for the first homework assignment of EECS 339: Intro to Databases (Spring 2019, with Prof. Jennie Rogers).*
 ### Setup
 1) Downloading
-Go to Ubuntu shell. If you don't have Ubuntu, here is a guide to install it. You need have Windows 10 for this. 
+Go to Ubuntu shell. If you don't have Ubuntu, [here](https://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/) is a guide to install it. You need have Windows 10 for this. 
 To download postgresql run:
 ```
 sudo apt-get install postgresql
