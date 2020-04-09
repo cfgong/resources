@@ -13,6 +13,16 @@ sudo apt-get update
 ```
 Now download pgAdmin. You will make a password for postgres while setting up pgAdmin. Make sure you remember that password. 
 
+In the download log, you should get the message `Success. You can now start the database server using:`
+Start the database using the given command. 
+```
+/usr/lib/postgresql/10/bin/pg_ctl -D /var/lib/postgresql/10/main -l logfile start
+```
+or 
+```
+/etc/init.d/postgresql start
+```
+
 2) Set up the database
 Now go back to your terminal. To start psql with postgres run:
 ```
