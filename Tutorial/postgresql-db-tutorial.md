@@ -88,3 +88,16 @@ To run queries, start up pgAdmin. Your database will be located under PostgreSQL
 ### Debugging
 
 Try uninstalling and reinstalling postgresql from terminal.
+
+- `\l` to list of databases
+- `\c - <new_user>` to switch user but keep same database
+
+Not allowing you to switch roles:
+- Solution [here](https://gist.github.com/AtulKsol/4470d377b448e56468baef85af7fd614)
+- modify the `pg_hb.conf` file connection to trust
+- to file path to `pg_hba.conf` in psql: type `SHOW hba_file;`
+```
+# TYPE DATABASE USER ADDRESS METHOD
+local  all      all          trust
+```
+- restart postgresql: `/etc/init.d/postgresql restart`
