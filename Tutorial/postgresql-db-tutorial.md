@@ -101,3 +101,12 @@ Not allowing you to switch roles:
 local  all      all          trust
 ```
 - restart postgresql: `/etc/init.d/postgresql restart`
+
+Why can't psql connect to postgres?
+- [Restart psql - stackoverflow](https://stackoverflow.com/a/49860500)
+
+May have to switch users to postgres then do `psql`
+```
+sudo su - postgres
+psql
+```
