@@ -11,12 +11,14 @@ ssh-keygen -t rsa
 - `Password`: enter password or just `ENTER` for no password protection
 
 2. Copy public key onto remote server
-- If you don't already have a `~/.ssh/authorized_keys` file:
+- If you don't already have a `~/.ssh/authorized_keys` file, you need to first log onto your remote and create the `.ssh` directory and `authorized_keys` file:
 ```
+ssh username@host.edu
+
 mkdir -p ~/.ssh
 touch ~/.ssh/authorized_keys
 ```
-- Then copy key:
+- To copy key onto your remote, run the following command from your computer (not on your remote):
 ```
 scp ~/.ssh/id_rsa.pub username@host.edu:~/.ssh/
 ```
